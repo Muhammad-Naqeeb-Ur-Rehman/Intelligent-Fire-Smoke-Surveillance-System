@@ -1,0 +1,30 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ── Streamlit ──
+.streamlit/secrets.toml
+
+# ── Model weights (large files — track via Git LFS or release assets) ──
+models/*.pt
+!models/.gitkeep
+
+# ── Runtime generated content ──
+temp/
+streamlit_output/
+recordings/*
+!recordings/.gitkeep
+
+# ── OS / Editor ──
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ── Logs ──
+*.log
