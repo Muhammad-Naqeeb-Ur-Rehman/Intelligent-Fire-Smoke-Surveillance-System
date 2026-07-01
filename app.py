@@ -230,7 +230,7 @@ for k, v in defaults.items():
 
 @st.cache_resource
 def load_model():
-    return YOLO("models/best.pt")
+    return YOLO("best.pt")
 
 model = load_model()
 
